@@ -18,7 +18,7 @@ def check_mac_address(mac_address):
 
 def infer_type(item):
     
-    """This function attempts to match the item with predefined patterns to determine its type.
+    """This function attempts to match the input item with predefined patterns to determine its data type.
        Four patterns are tested: double, integer, boolean, datetime and string
 
        :param item: The item to be matched with the predefined patterns
