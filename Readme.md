@@ -1,87 +1,43 @@
-# Project Title
+# Project Description
 
-One Paragraph of project description goes here
+PyCommons gathers few helper functions and classes that I commonly use in my Python projects. This package will continue to be updated as new helpers are added.
 
-## Getting Started
+## Available Helper Functions
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The following table shows the available helper functions:
 
-### Prerequisites
+| Function        | Description           | File  |
+| ------------- |:-------------| :----- |
+| `clear_console`      | Clears the console | generic.py |
+| `write_to_file`     | Writes a text string to a file      |   io.py |
+| `get_logger` | Creates and returns a logging object     |    logger.py |
+| `check_mac_address`      | Checks if a string matches the pattern of a MAC address | patterns.py |
+| `infer_type`      | Matches the input with predefined patterns to determine its data type | patterns.py |
 
-What things you need to install the software and how to install them
+## Available Helper Classes
 
-```
-Give examples
-```
+The following table enumerates the available helper classes:
 
-### Installing
+| Class        | Description           | File  |
+| ------------- |:-------------| :----- |
+| `InfiniteTimer`      | Implements an infinitely-repeating timer in a seperate thread | infinite_timer.py |
 
-A step by step series of examples that tell you how to get a development env running
+# Dependencies
 
-Say what the step will be
+This package does not require any specific dependencies except few standard Python modules.
 
-```
-Give the example
-```
+# Running the tests
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+To run the available tests, you need to execute this command at the `tests` folder level:
 
 ```
-Give an example
+python -m unittest discover
 ```
 
-### And coding style tests
+# Built With
 
-Explain what these tests test and why
+* [Python 3](https://www.python.org/)
 
-```
-Give an example
-```
+# License
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

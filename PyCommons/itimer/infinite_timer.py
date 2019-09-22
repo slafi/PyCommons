@@ -7,7 +7,7 @@ from datetime import timedelta
 
 class InfiniteTimer(threading.Thread):
 
-    """This class implements an infinite timer in a seperate thread
+    """This class implements an infinitely-repeating timer in a seperate thread
     """
 
     def __init__(self, interval, job_funct, *args, **kwargs):
