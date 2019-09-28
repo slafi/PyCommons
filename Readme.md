@@ -9,6 +9,7 @@ The following table shows the available helper functions:
 | Function        | Description           | File  |
 | ------------- |:-------------| :----- |
 | `clear_console`      | Clears the console | generic.py |
+| `get_unix_timestamp`      | Returns the UNIX timestamp from the current time and date| generic.py |
 | `write_to_file`     | Writes a text string to a file      |   io.py |
 | `get_logger` | Creates and returns a logging object     |    logger.py |
 | `check_mac_address`      | Checks if a string matches the pattern of a MAC address | patterns.py |
