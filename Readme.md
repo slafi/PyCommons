@@ -15,6 +15,7 @@ The following table shows the available helper functions:
 | `check_mac_address`      | Checks if a string matches the pattern of a MAC address | patterns.py |
 | `infer_type`      | Matches the input with predefined patterns to determine its data type | patterns.py |
 | `update_packages`      | Lists the current Python environment packages and calls the PIP module to upgrade them sequentially | env_helpers.py |
+| `list_package_modules`      | Lists the modules of a given package | env_helpers.py |
 
 ## Available Helper Classes
 
