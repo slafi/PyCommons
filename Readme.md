@@ -9,13 +9,15 @@ The following table shows the available helper functions:
 | Function        | Description           | File  |
 | ------------- |:-------------| :----- |
 | `clear_console`      | Clears the console | generic.py |
-| `get_unix_timestamp`      | Returns the UNIX timestamp from the current time and date| generic.py |
+| `get_unix_timestamp`      | Returns the UNIX timestamp from the current time and date | generic.py |
+| `get_anterior_datetime`      | Returns an interior date given an offset time in seconds | generic.py |
 | `write_to_file`     | Writes a text string to a file      |   io.py |
 | `get_logger` | Creates and returns a logging object     |    logger.py |
 | `check_mac_address`      | Checks if a string matches the pattern of a MAC address | patterns.py |
 | `infer_type`      | Matches the input with predefined patterns to determine its data type | patterns.py |
 | `update_packages`      | Lists the current Python environment packages and calls the PIP module to upgrade them sequentially | env_helpers.py |
 | `list_package_modules`      | Lists the modules of a given package | env_helpers.py |
+
 
 ## Available Helper Classes
 

@@ -1,5 +1,5 @@
 
-from .generic import clear_console, get_unix_timestamp
+from .generic import clear_console, get_unix_timestamp, get_anterior_datetime
 
 from .logger import get_logger
 
