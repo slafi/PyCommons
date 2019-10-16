@@ -7,7 +7,7 @@ PyCommons gathers few helper functions and classes that I commonly use in my Pyt
 The following table shows the available helper functions:
 
 | Function        | Description           | File  |
-| ------------- |:-------------| :----- |
+| ------------- |:------------- | :----- |
 | `clear_console`      | Clears the console | generic.py |
 | `get_unix_timestamp`      | Returns the UNIX timestamp from the current time and date | generic.py |
 | `get_anterior_datetime`      | Returns an interior date given an offset time in seconds | generic.py |

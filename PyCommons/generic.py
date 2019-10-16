@@ -21,8 +21,8 @@ def get_unix_timestamp():
     # current date and time
     now = datetime.now()
     return datetime.timestamp(now)
-	
-	
+
+
 def get_anterior_datetime(offset = 300):
 
     """ Returns an anterior date given an offset time in seconds
@@ -42,3 +42,4 @@ def get_anterior_datetime(offset = 300):
 
     else:
         raise Exception("Invalid time offset.")
+
